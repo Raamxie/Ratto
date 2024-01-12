@@ -1,0 +1,57 @@
+Game engines
+1. 10b - Prepínanie sa medzi levelmi
+Pri prechode sa musí zachovať nejaký herný stav, napr. postava, ostanú vlastnosti ako peniaze, odomknuté technológie, a pod.
+
+2. 10b - Vypisovanie informácií v HUD
+Budú sa vypisovať veci ako skóre, zdravie, a pod.
+
+3. 10b - Herný objekt ovládaný hráčom
+ Napr. postava ovládaná WASD klávesami a myšou pri FPS, pohyb kamery nad mapou v stratégii a pod.
+
+4. 10b - Herný objekt ovládaný jednoduchou umelou inteligenciou
+Nepriateľ, ktorý vás naháňa a pod.
+Tento bod je možné realizovať viackrát za predpokladu, že herné objeky majú výrazne inú a aj primerane dlhú implementáciu. Nestačí C&P so zmeneným parametrom, alebo pár zmenenými riadkami kódu.
+
+5. 10b - Zobrazovanie mapy
+Po stlačení tlačidla sa zobrazí mapa levelu na celú obrazovku, alebo sa mini mapa zobrazuje počas hry v rohu obrazovky
+
+6. 10b - Prehrávanie cut scén
+V správny čas v hre sa prehrá aspoň jedna cut scéna. Musí byť ošetrené, že počas ovládania sa postava nedá ovládať, nikto nás nemôže zabiť a pod.
+
+7. 10b - Zbieranie alebo vykladanie objektov
+ Hráč bude môcť zbierať objekty (napr. zdravie, body) alebo vykladať (napr. vykladanie zasielok)
+
+8. 10b -  Power-ups
+Niečo, čo zoberiem alebo po stlačení klávesy ovlyvní nejaké vlastnosti postavy alebo samotnej hry ako napr. rychlost stavania, pohybu, a pod. Efekt musí byť iba dočasný a po definovanom čase musí vypšať.
+
+9. 10b - Strom permanentných schopností
+ Strom schopností, ktorý sa nejako odomyká a pridáva vlastnosti hráčovi, ako napr. dvojnásobný útok, rýchlosť, a pod. Vlastnosti sú permanentné.
+V tomto bode GUI neuvažujeme.
+
+10. 10b - Programovo obmedzený level
+Miesta kam sa hráč nemá dostať nie sú obmedzené prekážkami (vysoké steny, voda), ale programovo. Napr. hra povie nejakú hlášku a hráča zabije, presunie a pod.
+
+11. 10b - Grafické používateľské rozhranie (GUI)
+Za obrazovku/okno s komplexnejšou logikou. Napr. okno s inventárom, v ktorom po zvolení itemu sa zobrazí jeho detail. Cez tlačidlo je možné item zahodiť a pod.
+Tento pod je možné použiť viackrát za každé dostatočne komplexnú obrazku/okno.
+
+12. 10b - Zaujímavá fyzika nad ramec enginu
+Fyzika, ktorá sa nedá docieliť iba vyklikaním atribútov, ale je ju potrebné naprogramovať. Napr. gravitačný kopanec.
+
+13. 10b - Použitie časticových systémov
+Časticové systémy sú použité na vizuálne zaujímavé efekty v hre, ako napr. oheň, výbuch, hmla, ohňostroj a pod.
+
+14. 10b - Dynamický systém hudby
+Viacero hudobných podmazov, ktoré sa dynamicky menia podľa situácie a miesta v hre
+
+15. 10b - Dynamické prostredie
+Prostredie sa v čase mení, napr. pohybuje sa Slnko na oblohe, v noci sa objavujú hviezdy, mení sa počasie a pod.
+
+16. 10b - Nepriatelia majú zmysly
+Hráč vydáva hluk, ktorý nepriatelia môžu započuť, ak sú dostatočne blízko. Nepriatelia vidia hráča, iba ak je v zornom poli a je vo vzdialenosti, ktoré je úmerná hráčovej póze (stojí, čupí, leží, a pod.). Ak hráča nevidia ani nepočujú, tak ho ignorujú.
+
+17. 10b - Systém achievementov
+Množina kvantifikovateľnych cielov, ktoré hráč v hre môze dosiahnuť.
+Zahŕňa aj systém na zobrazenie aktuálneho progresu.
+
+
