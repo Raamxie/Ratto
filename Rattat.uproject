@@ -10,13 +10,11 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "WMFCodecs",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
 		}
+	],
+	"TargetPlatforms": [
+		"IOS",
+		"Windows",
+		"Mac"
 	]
 }
